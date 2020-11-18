@@ -1,0 +1,11 @@
+#find the slope of 2d curve
+print("\twelcome to the program")
+print("you have to enter two different cordinates of the curve.\n")
+print("enter the cordinate 1")
+x1=float(input("enter the x value="))
+y1=float(input("enter the y value="))
+print("\nenter the cordinate 2")
+x2=float(input("enter the x value="))
+y2=float(input("enter the y value="))
+slope=(y2-x2)/(y1-x1)
+print("the slope of the graph is=",slope)
