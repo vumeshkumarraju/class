@@ -9,11 +9,10 @@ k=1
 while k <= x:
 	iteam=input("ENTER THE ITEAM {} :- ".format(k))
 	if iteam.isdigit()==True:
-		if iteam.isdigit()==True:
-			if int(iteam)%2==0 and int(iteam)>=100 and int(iteam)<=800:
-				string_number_list.append(int(iteam))
-			else:
-				iteam_not_added.append(iteam)
+		if int(iteam)%2==0 and int(iteam)>=100 and int(iteam)<=800:
+			string_number_list.append(int(iteam))
+		else:
+			iteam_not_added.append(int(iteam))
 	else:
 		vowels=['a','e','i','o','u','A','E','I','O','U']
 		if iteam[0] in vowels:
