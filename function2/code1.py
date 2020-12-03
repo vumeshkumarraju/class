@@ -12,7 +12,7 @@ def ascending(l):
     l.sort()
     print("SORTING THE LSIT IN ASCENDING ORDER :- ",l)
 def descending(l):
-    l.sort(reverse=true)
+    l.sort(reverse=True)
     print("SORTING OF THE LIST IN DESCENDING ORDER :-",l)
 
 i=0
